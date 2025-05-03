@@ -24,6 +24,7 @@ def create_interface(respond_callback):
                     height=400,
                     show_copy_button=True,
                     label="Conversation",
+                    type="messages",  # Use OpenAI-style message format
                 )
 
                 msg = gr.Textbox(
